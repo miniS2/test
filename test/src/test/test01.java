@@ -10,7 +10,7 @@ public class test01 {
 		// TODO Auto-generated method stub
 		
 		
-		int aaaaaa;
+		int cccc;
 	}
 
 }
