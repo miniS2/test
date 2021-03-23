@@ -11,6 +11,7 @@ public class test01 {
 		
 		int aaaaaaaaaa;
 		int cccc;
+		// 다시 한번 시도해봅니다..(김지연)
 	}
 
 }
