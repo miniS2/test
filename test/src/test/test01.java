@@ -8,10 +8,11 @@ public class test01 {
 		int aaaaaaaaaa;
 		int cccc;
 		int ddddd;
-		// 다시 한번 시도해봅니다..(김지연)
-		// 삭제하고 다시시도 ...(이수안)
-		// 오오 (신명준)
+		// �떎�떆 �븳踰� �떆�룄�빐遊낅땲�떎..(源�吏��뿰)
+		// �궘�젣�븯怨� �떎�떆�떆�룄 ...(�씠�닔�븞)
+		// �삤�삤 (�떊紐낆�)
 		System.out.println("Hello world");
+		//master
 	}
 
 }
