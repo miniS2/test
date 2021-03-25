@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Chat_User">
+   <children>
+      <Button layoutX="81.0" layoutY="209.0" mnemonicParsing="false" onAction="#Login" prefHeight="70.0" prefWidth="105.0" text="Login" />
+      <PasswordField fx:id="txtPassword" layoutX="91.0" layoutY="139.0" />
+      <TextField fx:id="txtId" layoutX="91.0" layoutY="74.0" />
+      <Label alignment="CENTER" layoutX="6.0" layoutY="78.0" prefHeight="15.0" prefWidth="54.0" text="ID " />
+      <Label layoutX="4.0" layoutY="143.0" prefHeight="15.0" prefWidth="77.0" text="PASSWORD" />
+      <Label fx:id="LabelStatus" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" prefHeight="55.0" prefWidth="250.0" text="Status" textFill="#ff0101">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
