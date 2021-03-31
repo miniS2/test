@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Chat_Server">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="500.0">
+         <children>
+            <TextField fx:id="textIP" layoutX="145.0" layoutY="3.0" prefHeight="23.0" prefWidth="248.0" promptText="127.0.0.1" text="127.0.0.1" />
+            <TextField fx:id="textPort" layoutX="398.0" layoutY="3.0" prefHeight="23.0" prefWidth="87.0" promptText="9876" />
+            <TextArea fx:id="textArea" layoutY="32.0" prefHeight="567.0" prefWidth="500.0" />
+            <Button fx:id="btnServerStart" layoutX="2.0" layoutY="3.0" mnemonicParsing="false" onAction="#btnStart" prefHeight="23.0" prefWidth="140.0" text="시작하기" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
