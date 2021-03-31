@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>Chat_Server</name>
+=======
+	<name>Chat_Client</name>
+>>>>>>> refs/remotes/origin/master
 	<comment></comment>
 	<projects>
 	</projects>
